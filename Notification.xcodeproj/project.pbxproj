@@ -13,6 +13,10 @@
 		96D87D581D50616C00E9B528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D87D561D50616C00E9B528 /* Main.storyboard */; };
 		96D87D5A1D50616C00E9B528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D87D591D50616C00E9B528 /* Assets.xcassets */; };
 		96D87D5D1D50616C00E9B528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D87D5B1D50616C00E9B528 /* LaunchScreen.storyboard */; };
+		96D87D691D5069B200E9B528 /* Government.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87D681D5069B200E9B528 /* Government.m */; };
+		96D87D6C1D506A5700E9B528 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87D6B1D506A5700E9B528 /* Doctor.m */; };
+		96D87D6F1D506CBA00E9B528 /* Pensionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87D6E1D506CBA00E9B528 /* Pensionary.m */; };
+		96D87D721D506D3700E9B528 /* Businessman.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87D711D506D3700E9B528 /* Businessman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		96D87D591D50616C00E9B528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D87D5C1D50616C00E9B528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D87D5E1D50616C00E9B528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D87D671D5069B200E9B528 /* Government.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Government.h; sourceTree = "<group>"; };
+		96D87D681D5069B200E9B528 /* Government.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Government.m; sourceTree = "<group>"; };
+		96D87D6A1D506A5700E9B528 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		96D87D6B1D506A5700E9B528 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		96D87D6D1D506CBA00E9B528 /* Pensionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pensionary.h; sourceTree = "<group>"; };
+		96D87D6E1D506CBA00E9B528 /* Pensionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pensionary.m; sourceTree = "<group>"; };
+		96D87D701D506D3700E9B528 /* Businessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Businessman.h; sourceTree = "<group>"; };
+		96D87D711D506D3700E9B528 /* Businessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Businessman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				96D87D501D50616C00E9B528 /* AppDelegate.h */,
 				96D87D511D50616C00E9B528 /* AppDelegate.m */,
+				96D87D701D506D3700E9B528 /* Businessman.h */,
+				96D87D711D506D3700E9B528 /* Businessman.m */,
+				96D87D6A1D506A5700E9B528 /* Doctor.h */,
+				96D87D6B1D506A5700E9B528 /* Doctor.m */,
+				96D87D671D5069B200E9B528 /* Government.h */,
+				96D87D681D5069B200E9B528 /* Government.m */,
+				96D87D6D1D506CBA00E9B528 /* Pensionary.h */,
+				96D87D6E1D506CBA00E9B528 /* Pensionary.m */,
 				96D87D531D50616C00E9B528 /* ViewController.h */,
 				96D87D541D50616C00E9B528 /* ViewController.m */,
 				96D87D561D50616C00E9B528 /* Main.storyboard */,
@@ -150,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D87D691D5069B200E9B528 /* Government.m in Sources */,
+				96D87D6F1D506CBA00E9B528 /* Pensionary.m in Sources */,
 				96D87D551D50616C00E9B528 /* ViewController.m in Sources */,
 				96D87D521D50616C00E9B528 /* AppDelegate.m in Sources */,
 				96D87D4F1D50616C00E9B528 /* main.m in Sources */,
+				96D87D6C1D506A5700E9B528 /* Doctor.m in Sources */,
+				96D87D721D506D3700E9B528 /* Businessman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

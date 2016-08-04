@@ -12,6 +12,7 @@
 #import "Doctor.h"
 #import "Pensionary.h"
 #import "ViewController.h"
+#import "MyAppDelegate.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,7 @@
 @property (nonatomic, strong) Businessman *businessman;
 @property (nonatomic, strong) Doctor *doctor;
 @property (nonatomic, strong) Pensionary *pensionary;
+@property (nonatomic, strong) MyAppDelegate *myAppDelegate;
 
 
 @end
@@ -57,10 +59,38 @@
     self.government.averagePrice = 9.f;
     self.government.inflation = 20.f;
     
+    self.myAppDelegate = [[MyAppDelegate alloc] init];
+    
+    NSLog(@"AppDelegate - didFinishLaunchingWithOptions");
+
     // Override point for customization after application launch.
     return YES;
 }
 
+- (void)applicationWillResignActive:(UIApplication *)application {
+    NSLog(@"AppDelegate - WillResignActive");
+
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    NSLog(@"AppDelegate - DidEnterBackground");
+
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    NSLog(@"AppDelegate - WillEnterForeground");
+
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    NSLog(@"AppDelegate - DidBecomeActive");
+
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    NSLog(@"AppDelegate - WillTerminate");
+
+}
 
 
 @end
